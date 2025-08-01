@@ -5,7 +5,7 @@ const Header = () => (
     {/* Left: GFG Logo + divider */}
     <div className="flex items-center space-x-4">
       <img
-        src="https://www.svgrepo.com/download/330494/geeksforgeeks.svg"
+        src="https://brandfetch.com/geeksforgeeks.org?view=library&library=default&collection=logos&asset=idFKvyQOZ_&utm_source=https%253A%252F%252Fbrandfetch.com%252Fgeeksforgeeks.org&utm_medium=copyAction&utm_campaign=brandPageReferral"
         alt="GeeksforGeeks logo"
         className="h-8 w-auto"
       />
