@@ -26,7 +26,7 @@ const Hero = () => {
       </button>
 
       {/* Custom Graphic Bars */}
-      <div className="flex justify-center items-end gap-2 mt-12">
+      <div className="flex justify-center items-center gap-2 mt-12">
         <div className="w-10 h-24 bg-cyan-300 rounded-t-full shadow-md"></div>
         <div className="w-10 h-28 bg-yellow-300 rounded-t-full shadow-md"></div>
         <div className="w-10 h-36 bg-teal-400 rounded-t-full shadow-md"></div>
