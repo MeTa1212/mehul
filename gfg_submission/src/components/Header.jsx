@@ -1,24 +1,35 @@
 import React from "react";
 
-const Header = () => {
-  return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-        <div className="text-2xl font-bold text-green-600">GFG-RBU</div>
-        <nav className="space-x-6 text-gray-800 font-medium">
-          <a href="#features" className="hover:text-green-600">
-            Features
-          </a>
-          <a href="#faqs" className="hover:text-green-600">
-            FAQs
-          </a>
-          <a href="#contact" className="hover:text-green-600">
-            Contact
-          </a>
-        </nav>
-      </div>
-    </header>
-  );
-};
+const Header = () => (
+  <header className="flex items-center justify-between px-6 py-3 bg-white border-b shadow-sm">
+    {/* Left: GFG Logo + divider */}
+    <div className="flex items-center space-x-4">
+      <img
+        src="https://www.svgrepo.com/download/330494/geeksforgeeks.svg"
+        alt="GeeksforGeeks logo"
+        className="h-8 w-auto"
+      />
+      <div className="h-6 border-r border-dotted border-gray-400"></div>
+    </div>
+
+    {/* Center: Navigation */}
+    <nav className="flex items-center space-x-6 text-sm font-medium text-gray-700">
+      <a href="#products" className="hover:text-black">
+        Products
+      </a>
+      <a href="#resources" className="hover:text-black">
+        Resources
+      </a>
+      <a href="#developers" className="hover:text-black">
+        Developers
+      </a>
+    </nav>
+
+    {/* Right: Open App button */}
+    <button className="bg-black text-white px-4 py-1.5 rounded-full text-sm hover:bg-gray-900 transition">
+      Open App
+    </button>
+  </header>
+);
 
 export default Header;
