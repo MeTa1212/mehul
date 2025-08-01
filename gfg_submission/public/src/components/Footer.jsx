@@ -5,7 +5,11 @@ const Footer = () => {
     <footer className="bg-white border-t border-gray-200 mt-16">
       <div className="max-w-7xl mx-auto px-4 py-10 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         <div>
-          <h3 className="text-xl font-bold text-green-600 mb-2">GFG-RBU</h3>
+          <img
+            src="https://brandfetch.com/geeksforgeeks.org?view=library&library=default&collection=logos&asset=idFKvyQOZ_&utm_source=https%253A%252F%252Fbrandfetch.com%252Fgeeksforgeeks.org&utm_medium=copyAction&utm_campaign=brandPageReferral"
+            alt="GeeksforGeeks logo"
+            className="h-8 w-auto"
+          />
           <p className="text-gray-600 text-sm">
             Empowering learners to build frontend skills with React and modern
             UI.

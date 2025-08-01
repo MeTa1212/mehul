@@ -34,7 +34,6 @@ const Hero = () => {
         <div className="w-10 h-40 bg-orange-300 rounded-t-full shadow-md"></div>
         <div className="w-10 h-44 bg-purple-300 rounded-t-full shadow-md"></div>
       </div>
-      </div>
     </section>
   );
 };
